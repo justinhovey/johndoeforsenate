@@ -4,7 +4,7 @@
 
     <meta charset="utf-8">
     
-    <title>Members Page</title>
+    <title>John Doe for Senate</title>
 
     <!-- compatibility -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -42,22 +42,11 @@
 </head>
  
 <body> 
-    <nav>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="johnabout.html">About John</a></li>
-            <li><a href="issues.html">Issues</a></li>
-            <li><a href="events.html">Events</a></li>
-            <li><a href="volunteer.html">Volunteer</a></li>
-            <li><a href="pollinglocation.html">Polling</a></li>
-            <li><a href="signup.html">Sign Up</a></li>
-            <li><a href="login.html">Login</a></li>
-        </ul>
-    </nav>
+ <?php include '../resources/navigation.php'; ?>
 
     <header>
-        <h1>Members Welcome!</h1><br>
-        <h2>Thank you for your support!</h2> 
+        <h1>John Doe: Independent For Urgandale Senate</h1><br>
+        <h2> A handsome no-nonsense family man!</h2> 
     </header>
 
     <div class="vote">
@@ -66,12 +55,14 @@
         <br><a class= "pollingLocation" href="pollinglocation.html">Click here for polling locations!</a>
     </div>
 
-    <section class ="main">
-        <p>
-        <h4>Online Video Stream</h4>
-        John will be having two more online video streams before the election for members only! These streams will be on Thursday, October 13 at 6:00PM and Tuesday,          October 25 at 9:00PM. In these streams John will answer questions that have been asked on the campaign trail or have been received by our office. These               questions can and will be about anything, not just politics. Thank you for your support!
-        </p>
+    <section>
+        <img id="john" style="border-color:#F2C185;" src ="img/content/John_Doe_Picture2.jpg" alt="John Doe Picture" width = 350 height = 200>
+        <ul>
+        <li><a href="johnabout.html">Learn more about John here!</a></li>
+        <li><a href="issues.html">Learn what John is passionate about!</a></li>
+        <li><a href="events.html">Learn where you can see John!</a></li>
+        </ul>
     </section>
-    <footer><em>Contact our office at 555-676-9090 or by email at electjohndoe@johndoe.org</em></footer>
+    <?php include '../resources/footer.php'; ?>
 </body>
 </html>
