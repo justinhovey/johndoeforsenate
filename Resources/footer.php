@@ -1,1 +1,0 @@
-    <footer><em>Contact our office at 555-676-9090 or by email at electjohndoe@johndoe.org</em></footer>
